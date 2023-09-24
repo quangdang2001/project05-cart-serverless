@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "group",
+  "type": "object",
+  "properties": {
+    "quantity": {
+      "type": "number"
+    }
+  },
+  "required": ["quantity"],
+  "additionalProperties": false
+}

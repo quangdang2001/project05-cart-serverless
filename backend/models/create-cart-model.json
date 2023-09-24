@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "group",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "price": {
+      "type": "number",
+      "minimum": 1
+    },
+    "quantity": {
+      "type": "number",
+      "minimum": 1
+    }
+  },
+  "required": ["name", "description", "price", "quantity"],
+  "additionalProperties": false
+}
